@@ -5,6 +5,7 @@ body {
   background-position: center 3%;
   background-size: 100% auto;
   background-repeat: no-repeat;
+  background-attachment:fixed;
 }
 *:focus {
   font-weight: 900;
@@ -102,3 +103,9 @@ td {
   font-size: 1.5em;
   font-weight: 900;
 }
+
+.article {
+	background-color:white;
+	margin:25px;
+}
+
