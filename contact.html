@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Dawn of the mobs</title>
+    <title>Clean Blog - Start Bootstrap Theme</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -20,7 +20,6 @@
 
     <!-- Custom styles for this template -->
     <link href="css/clean-blog.min.css" rel="stylesheet">
-	<link href="css/clean-blog.css" rel="stylesheet">
 
     <!-- Temporary navbar container fix -->
     <style>
@@ -45,23 +44,20 @@
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu <i class="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand textborder2" href="index.html">Dawn of the mobs</a>
+            <a class="navbar-brand" href="index.html">Start Bootstrap</a>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link textborder2" href="index.html">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link textborder2" href="about.html">Over ons</a>
+                        <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link textborder2" href="post.html">Patch lijst</a>
-                    </li>
-					<li class="nav-item">
-                        <a class="nav-link textborder2" href="contact.html">DOTM crew</a>
+                        <a class="nav-link" href="post.html">Sample Post</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link textborder2" href="contact.html">Contact</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -69,13 +65,14 @@
     </nav>
 
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url('img/home-bg.jpg')">
+    <header class="masthead" style="background-image: url('img/contact-bg.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
-                    <div class="site-heading">
-                        <h1 class="textborder1">DOTM</h1>
-                        <h3 class="textborder2">Run je eigen maffia imperium!</h3>
+                    <div class="page-heading">
+                        <h1>Contact Me</h1>
+                        <hr class="small">
+                        <span class="subheading">Have questions? I have answers (maybe).</span>
                     </div>
                 </div>
             </div>
@@ -86,47 +83,45 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
-                <div class="post-preview">
-                    <a href="post.html">
-                        <h2 class="post-title">
-                            Patch 1.2
-                        </h2>
-                        <h3 class="post-subtitle">
-                            Nieuwe gebouwniveau's, wietplantage en casino uitbreidingen!
-                        </h3>
-                    </a>
-                    <p class="post-meta">Gepost door <a href="#">Mille</a> op 17 mei, 2017</p>
-                </div>
-                <hr>
-                <div class="post-preview">
-                    <a href="post.html">
-                        <h2 class="post-title">
-                            Patch 1.1
-                        </h2>
-                        <h3 class="post-subtitle">
-                            Nieuwe gebouwniveau's, sportschool en casino uitbreidingen!
-                        </h3>
-                    </a>
-                    <p class="post-meta">Gepost door <a href="#">Mille</a> op 10 mei, 2017</p>
-                </div>
-                <hr>
-                <div class="post-preview">
-                    <a href="post.html">
-                        <h2 class="post-title">
-                            Heropening!
-                        </h2>
-                        <h3 class="post-subtitle">
-                            DOTM gaat opnieuw open! Lees meer hier!
-                        </h3>
-                    </a>
-                    <p class="post-meta">Gepost door <a href="#">Mille</a> op 9 mei, 2017</p>
-                </div>
-                <hr>
-                
-                <!-- Pager -->
-                <div class="clearfix">
-                    <a class="btn btn-secondary float-right" href="#">Oudere posts &rarr;</a>
-                </div>
+                <p>Want to get in touch with me? Fill out the form below to send me a message and I will try to get back to you within 24 hours!</p>
+                <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
+                <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
+                <!-- NOTE: To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
+                <form name="sentMessage" id="contactForm" novalidate>
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls">
+                            <label>Name</label>
+                            <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls">
+                            <label>Email Address</label>
+                            <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <label>Phone Number</label>
+                            <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls">
+                            <label>Message</label>
+                            <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <br>
+                    <div id="success"></div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-secondary">Send</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
@@ -140,15 +135,15 @@
                 <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
                     <ul class="list-inline text-center">
                         <li class="list-inline-item">
-                            <a href="https://www.instagram.com/dawn_of_the_mobs/">
+                            <a href="#">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
                                 </span>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="https://www.facebook.com/DawnOfTheMobs/?fref=ts">
+                            <a href="#">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -164,7 +159,7 @@
                             </a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted">Copyright &copy; DOTM 2017</p>
+                    <p class="copyright text-muted">Copyright &copy; Your Website 2017</p>
                 </div>
             </div>
         </div>
@@ -174,6 +169,10 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/tether/tether.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
 
     <!-- Custom scripts for this template -->
     <script src="js/clean-blog.min.js"></script>
