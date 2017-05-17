@@ -5,7 +5,7 @@
  */
 body {
   font-size: 20px;
-  color: #333333;
+  color: #ffffff;
   font-family: 'Lora', 'Times New Roman', serif; }
 
 p {
@@ -25,7 +25,7 @@ h6 {
   }
 
 a {
-  color: #333333;
+  color: #ffffff;
   -webkit-transition: all .2s;
   -moz-transition: all .2s;
   transition: all .2s; }
@@ -138,11 +138,11 @@ body {
         border-bottom: 1px solid white;
         background-color: rgba(255, 255, 255, 0.9); }
         #mainNav.is-fixed .navbar-brand {
-          color: #333333; }
+          color: #ffffff; }
           #mainNav.is-fixed .navbar-brand:hover, #mainNav.is-fixed .navbar-brand:focus {
             color: #0085A1; }
         #mainNav.is-fixed .navbar-nav > li.nav-item > a {
-          color: #333333; }
+          color: #ffffff; }
           #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover, #mainNav.is-fixed .navbar-nav > li.nav-item > a:focus {
             color: #0085A1; }
       #mainNav.is-visible {
